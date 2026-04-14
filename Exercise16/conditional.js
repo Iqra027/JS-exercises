@@ -6,17 +6,21 @@
 // }
 
 //tempreature
-let tempreature=34;
-if(tempreature <0){
-    console.log("very cold")
-}
-else if(tempreature <=15){
-    console.log("cold")
-}
-else if(tempreature >=15 && tempreature <=25){
-    console.log("warm")
-}
-else {
-    console.log("Hot")
-}
+// let tempreature=34;
+// if(tempreature <0){
+//     console.log("very cold")
+// }
+// else if(tempreature <=15){
+//     console.log("cold")
+// }
+// else if(tempreature >=15 && tempreature <=25){
+//     console.log("warm")
+// }
+// else {
+//     console.log("Hot")
+// }
 
+//terney
+let grade=50;
+const message=grade >=60 ? "pass" : "fail";
+console.log(message);
