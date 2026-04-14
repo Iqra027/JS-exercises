@@ -21,6 +21,13 @@
 // }
 
 //terney
-let grade=50;
-const message=grade >=60 ? "pass" : "fail";
-console.log(message);
+// let grade=50;
+// const message=grade >=60 ? "pass" : "fail";
+// console.log(message);
+
+//forEach Exercise19
+
+let numbers=[1,2,3,4,5];
+numbers.forEach(number=>{
+    console.log(number);
+})
