@@ -23,8 +23,30 @@
 
 //Exercise 33
 
-function save() {
-    const saveButton=document.querySelector(".saveButton")
-    saveButton.textContent="Saved already"
-    saveButton.style.backgroundColor="green"
+// function save() {
+//     const saveButton=document.querySelector(".saveButton")
+//     saveButton.textContent="Saved already"
+//     saveButton.style.backgroundColor="green"
+// }
+
+// exercise 34
+
+const list=document.querySelector(".list")
+
+function AddnewItem() {
+    const NewItem=document.createElement("li")
+    NewItem.textContent="New Item"
+    list.appendChild(NewItem)
+    console.log(list)
+
+}
+
+function DeleteItem() {
+    if(list.lastChild){
+        list.removeChild(list.lastChild)
+    }else{
+        alert("No items to delete")
+    }
+    
+
 }
