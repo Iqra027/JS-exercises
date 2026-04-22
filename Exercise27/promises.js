@@ -11,10 +11,22 @@ function fetchUserData(){
     }
     )
 }
-fetchUserData()
-    .then(data => {
-        console.log(data);
-    })
-    .catch(error => {
+// fetchUserData()
+//     .then(data => {
+//         console.log(data);
+//     })
+//     .catch(error => {
+//         console.error(error);
+//     });
+
+async function DisplayUserData(){
+    try{   
+        const user= await fetchUserData();
+        console.log(user);
+
+    }catch(error){
         console.error(error);
-    });
+    }
+}   
+
+DisplayUserData();
