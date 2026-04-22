@@ -31,17 +31,3 @@ async function DisplayUserData(){
 
 DisplayUserData();
 
-//Json lesson
-
-// object to json 
-const user = {  
-    id: 1,
-    name: 'John',
-    age:30
-}; 
-console.log(user); 
-const jsonString = JSON.stringify(user);
-console.log(jsonString);
-//json to object
-const obj = JSON.parse(jsonString);
-console.log(obj);
